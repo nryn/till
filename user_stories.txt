@@ -1,0 +1,25 @@
+As a cashier,
+So I can charge the right amount,
+I want to be able to calculate the order total.
+
+
+As a cashier,
+So I can avoid having to do manual work,
+I want a fixed rate of tax to be automatically calculated and applied to the total.
+
+As a customer,
+So I can legally have some coffee,
+I want to have items added to my order.
+
+As a customer,
+So I can have a record of my transaction,
+I would like a receipt which enumerates my order items, total, and associated fees.
+
+Objects | Messages
+------------------
+Receipt | have a list of order items and quantities
+Item    | have a name and price
+Receipt | add item
+Receipt | calculate subtotal
+Receipt | calculate tax
+Receipt | calculate total
